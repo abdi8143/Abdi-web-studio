@@ -233,3 +233,36 @@ footer p {
     min-height: 500px;
   }
 }
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 15px;
+  background: #080808;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+#contactForm textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+  border-color: #d4af37;
+  outline: none;
+}
+
+#contactForm button {
+  cursor: pointer;
+  border: none;
+}
