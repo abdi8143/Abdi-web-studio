@@ -81,13 +81,22 @@
     <h2>Let's Work Together</h2>
     <p>Have a project? Contact us today.</p>
 
-    <div class="contact-card">
-      <h3>Request Your Website</h3>
-      <p>Tell us about the website you need.</p>
-      <button class="main-button" onclick="contactMessage()">
-  Contact Us
-</button>
-    </div>
+   <div class="contact-card">
+  <h3>Request Your Website</h3>
+  <p>Tell us about the website you need.</p>
+
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+
+    <input type="email" placeholder="Your Email" required>
+
+    <textarea placeholder="Your Message" required></textarea>
+
+    <button type="submit" class="main-button">
+      Send Message
+    </button>
+  </form>
+</div>
   </section>
 
   <!-- FOOTER -->
